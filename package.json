@@ -10,7 +10,8 @@
   },
   "scripts": {
     "scan": "node src/index.js",
-    "test": "node src/index.js --path=./examples"
+    "test": "node src/index.js --path=./examples",
+    "prepare": "npm install --ignore-scripts"
   },
   "keywords": [
     "i18n",

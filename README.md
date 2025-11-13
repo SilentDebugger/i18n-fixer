@@ -58,17 +58,22 @@ cd /path/to/your/project
 i18n-finder
 ```
 
-### Option 2: Install as Dev Dependency
+### Option 2: Install as Dev Dependency (Without Cloning)
 
-Install in your project:
+Install directly from GitHub into your project:
 
 ```bash
-# From local directory
-npm install --save-dev /path/to/i18n-fixer
+# Install from GitHub (latest commit on main branch)
+npm install --save-dev github:SilentDebugger/i18n-fixer
 
-# Or if published to npm (future)
-npm install --save-dev i18n-fixer
+# Or install from a specific branch
+npm install --save-dev github:SilentDebugger/i18n-fixer#claude/auto-string-finder-script-011CV5XUSoxPbqFwQvw5Q6d3
+
+# Or install from a specific commit/tag
+npm install --save-dev github:SilentDebugger/i18n-fixer#dd26dbf
 ```
+
+This will add it to your `package.json` and `node_modules` without needing to clone the repo.
 
 Add to your package.json scripts:
 
@@ -80,7 +85,38 @@ Add to your package.json scripts:
 }
 ```
 
-### Option 3: Use Directly (Development)
+Run with:
+
+```bash
+npm run i18n-scan
+```
+
+### Option 2b: Install from Local Directory
+
+If you have a local copy:
+
+```bash
+npm install --save-dev /path/to/i18n-fixer
+```
+
+### Option 3: Use with npx (No Installation Required)
+
+Run directly without installing:
+
+```bash
+# Run from GitHub without installing anything
+npx github:SilentDebugger/i18n-fixer
+
+# Or from a specific branch
+npx github:SilentDebugger/i18n-fixer#claude/auto-string-finder-script-011CV5XUSoxPbqFwQvw5Q6d3
+
+# With options
+npx github:SilentDebugger/i18n-fixer --path=./src --output=results.json
+```
+
+This is perfect for one-time scans or trying out the tool!
+
+### Option 4: Use Directly (Development)
 
 For development or testing of i18n-fixer itself:
 

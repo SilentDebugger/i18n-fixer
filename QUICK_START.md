@@ -1,18 +1,54 @@
 # Quick Start Guide
 
-## For Users Who Want to Scan Their Project
-
-### Step 1: Install the Tool
+## TL;DR - Fastest Way
 
 ```bash
-# Clone this repository
+# From your React/Expo project directory
+npx github:SilentDebugger/i18n-fixer
+```
+
+That's it! No installation needed.
+
+---
+
+## For Users Who Want to Scan Their Project
+
+### Installation Options
+
+Choose the method that works best for you:
+
+#### Option A: No Installation (Quickest - Use npx)
+
+```bash
+# Just run it directly from GitHub - no installation needed!
+cd /path/to/your/project
+npx github:SilentDebugger/i18n-fixer
+```
+
+#### Option B: Install in Your Project Only
+
+```bash
+# Install directly from GitHub into your project
+cd /path/to/your/project
+npm install --save-dev github:SilentDebugger/i18n-fixer
+
+# Add to package.json scripts
+# Add this to your package.json:
+# "scripts": {
+#   "i18n-check": "i18n-finder"
+# }
+
+# Then run
+npm run i18n-check
+```
+
+#### Option C: Install Globally
+
+```bash
+# Clone and install globally (use anywhere on your system)
 git clone https://github.com/SilentDebugger/i18n-fixer.git
 cd i18n-fixer
-
-# Install dependencies
 npm install
-
-# Install globally (creates i18n-finder and i18n-fixer commands)
 npm link
 ```
 

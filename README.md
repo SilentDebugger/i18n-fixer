@@ -35,33 +35,92 @@ Automatically detect hardcoded strings in React/Expo projects that need internat
 
 ## Installation
 
+### Option 1: Install Globally (Recommended)
+
+Install globally to use the CLI commands anywhere:
+
 ```bash
+# Clone the repository
+git clone https://github.com/SilentDebugger/i18n-fixer.git
+cd i18n-fixer
+
+# Install dependencies
+npm install
+
+# Link globally
+npm link
+```
+
+Now you can use `i18n-finder` or `i18n-fixer` commands anywhere:
+
+```bash
+cd /path/to/your/project
+i18n-finder
+```
+
+### Option 2: Install as Dev Dependency
+
+Install in your project:
+
+```bash
+# From local directory
+npm install --save-dev /path/to/i18n-fixer
+
+# Or if published to npm (future)
+npm install --save-dev i18n-fixer
+```
+
+Add to your package.json scripts:
+
+```json
+{
+  "scripts": {
+    "i18n-scan": "i18n-finder"
+  }
+}
+```
+
+### Option 3: Use Directly (Development)
+
+For development or testing of i18n-fixer itself:
+
+```bash
+git clone https://github.com/SilentDebugger/i18n-fixer.git
+cd i18n-fixer
 npm install
 ```
 
 ## Quick Start
 
-### Scan your entire project:
+### If installed globally:
 
 ```bash
+# Scan current directory
+i18n-finder
+
+# Scan specific directory
+i18n-finder --path=./src
+
+# Export to JSON
+i18n-finder --output=results.json
+
+# Use custom config
+i18n-finder --config=.i18n-finder.config.json
+```
+
+### If running from source:
+
+```bash
+# Scan current directory
 npm run scan
-```
 
-### Scan a specific directory:
-
-```bash
+# Scan specific directory
 node src/index.js --path=./src
-```
 
-### Export results to JSON:
-
-```bash
+# Export results to JSON
 node src/index.js --output=results.json
-```
 
-### Use custom configuration:
-
-```bash
+# Use custom configuration
 node src/index.js --config=.i18n-finder.config.json
 ```
 
@@ -70,7 +129,7 @@ node src/index.js --config=.i18n-finder.config.json
 ### Command Line Options
 
 ```bash
-node src/index.js [options]
+i18n-finder [options]
 
 Options:
   --path, -p      Path to scan (default: current directory)
@@ -78,22 +137,29 @@ Options:
   --output, -o    Output JSON file path
   --min-length    Minimum string length to consider (default: 2)
   --help, -h      Show help
+  --version       Show version number
 ```
 
 ### Example Commands
 
 ```bash
 # Scan the src directory
-node src/index.js --path=./src
+i18n-finder --path=./src
 
 # Scan with custom minimum length
-node src/index.js --path=./src --min-length=3
+i18n-finder --path=./src --min-length=3
 
 # Export results to JSON for CI/CD
-node src/index.js --output=./reports/i18n-scan.json
+i18n-finder --output=./reports/i18n-scan.json
 
 # Use custom configuration
-node src/index.js --config=./custom-config.json
+i18n-finder --config=./custom-config.json
+
+# Get help
+i18n-finder --help
+
+# Check version
+i18n-finder --version
 ```
 
 ## Configuration
@@ -278,10 +344,22 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '18'
-      - name: Install dependencies
+
+      # Option 1: If installed as dev dependency
+      - name: Install project dependencies
         run: npm install
       - name: Run i18n scan
-        run: node src/index.js --output=results.json
+        run: npx i18n-finder --output=results.json
+
+      # Option 2: If cloning and using directly
+      # - name: Clone i18n-fixer
+      #   run: |
+      #     git clone https://github.com/SilentDebugger/i18n-fixer.git
+      #     cd i18n-fixer
+      #     npm install
+      # - name: Run i18n scan
+      #   run: node i18n-fixer/src/index.js --path=. --output=results.json
+
       - name: Check results
         run: |
           TOTAL=$(node -e "console.log(require('./results.json').stats.totalStrings)")

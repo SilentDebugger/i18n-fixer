@@ -4,6 +4,10 @@
   "description": "Automatically detect hardcoded strings in React/Expo projects that need i18n",
   "main": "src/index.js",
   "type": "module",
+  "bin": {
+    "i18n-finder": "src/index.js",
+    "i18n-fixer": "src/index.js"
+  },
   "scripts": {
     "scan": "node src/index.js",
     "test": "node src/index.js --path=./examples"
@@ -14,7 +18,9 @@
     "expo",
     "internationalization",
     "ast",
-    "scanner"
+    "scanner",
+    "cli",
+    "hardcoded-strings"
   ],
   "author": "",
   "license": "MIT",

@@ -1,0 +1,67 @@
+{
+  "includePatterns": [
+    "**/*.{js,jsx,ts,tsx}"
+  ],
+  "excludePatterns": [
+    "**/node_modules/**",
+    "**/dist/**",
+    "**/build/**",
+    "**/.expo/**",
+    "**/.git/**",
+    "**/coverage/**",
+    "**/__tests__/**",
+    "**/*.test.{js,jsx,ts,tsx}",
+    "**/*.spec.{js,jsx,ts,tsx}"
+  ],
+  "minStringLength": 2,
+  "i18nPatterns": [
+    "^t\\(",
+    "^i18n\\.",
+    "translate\\(",
+    "^intl\\.",
+    "formatMessage\\(",
+    "^__\\(",
+    "^_\\("
+  ],
+  "i18nFunctionNames": [
+    "useTranslation",
+    "useIntl",
+    "withTranslation",
+    "t",
+    "translate",
+    "__",
+    "_"
+  ],
+  "excludeStringPatterns": [
+    "^[a-z][a-zA-Z0-9]*$",
+    "^[A-Z_]+$",
+    "^#[0-9a-fA-F]{3,8}$",
+    "^rgba?\\(",
+    "^https?:\\/\\/",
+    "^\\.{1,2}\\/",
+    "^\\/",
+    "^@",
+    "^data:",
+    "^\\d+px$",
+    "^\\d+%$",
+    "^[<>]=?$",
+    "^\\s*$"
+  ],
+  "excludeAttributeNames": [
+    "testID",
+    "key",
+    "ref",
+    "style",
+    "className",
+    "id",
+    "type",
+    "name",
+    "value",
+    "defaultValue",
+    "href",
+    "src",
+    "role",
+    "data-testid",
+    "as"
+  ]
+}

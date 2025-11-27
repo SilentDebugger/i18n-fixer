@@ -1,0 +1,95 @@
+{
+  "welcome": {
+    "greeting": "TODO: translate",
+    "title": "TODO: translate",
+    "userGreeting": "TODO: translate"
+  },
+  "errors": {
+    "general": "TODO: translate"
+  },
+  "buttons": {
+    "clickMe": "TODO: translate",
+    "submit": "TODO: translate",
+    "save": "TODO: translate",
+    "cancel": "TODO: translate",
+    "ok": "TODO: translate",
+    "delete": "TODO: translate",
+    "edit": "TODO: translate",
+    "press": "TODO: translate"
+  },
+  "status": {
+    "loggedIn": "TODO: translate",
+    "pleaseLogin": "TODO: translate"
+  },
+  "inputs": {
+    "enterName": "TODO: translate",
+    "email": "TODO: translate"
+  },
+  "accessibility": {
+    "saveChanges": "TODO: translate"
+  },
+  "profile": {
+    "settings": "TODO: translate",
+    "manageAccount": "TODO: translate"
+  },
+  "class": {
+    "title": "TODO: translate"
+  },
+  "header": {
+    "title": "TODO: translate"
+  },
+  "examples": {
+    "type_script_example": {
+      "welcome_to_typescript_component": "Welcome to TypeScript Component",
+      "user_dashboard": "User Dashboard",
+      "welcome_back": "Welcome back,",
+      "please_sign_in_to_continue": "Please sign in to continue",
+      "enter_email": "Enter email",
+      "login": "Login",
+      "register": "Register",
+      "forgot_password": "Forgot Password?",
+      "loading_user_data": "Loading user data...",
+      "data_saved_successfully": "Data saved successfully",
+      "unable_to_connect_to_server": "Unable to connect to server",
+      "settings_panel": "Settings Panel",
+      "configure_your_preferences_below": "Configure your preferences below",
+      "notification_settings": "Notification Settings",
+      "enable_notifications": "Enable Notifications",
+      "disable_all": "Disable All",
+      "important_notice": "Important Notice",
+      "your_account_will_be_upgraded_automatica": "Your account will be upgraded automatically.",
+      "learn_more": "Learn More"
+    },
+    "bad_example": {
+      "hello_welcome_to_our_app": "Hello, welcome to our app!",
+      "something_went_wrong_please_try_again": "Something went wrong. Please try again.",
+      "welcome_to_the_app": "Welcome to the App",
+      "click_me": "Click Me",
+      "submit_form": "Submit Form",
+      "hello_world": "Hello World",
+      "welcome": "Welcome",
+      "enter_your_name": "Enter your name",
+      "email_address": "Email address",
+      "save_changes": "Save Changes",
+      "profile_settings": "Profile Settings",
+      "manage_your_account": "Manage your account",
+      "cancel": "Cancel",
+      "delete": "Delete",
+      "edit": "Edit",
+      "save": "Save",
+      "invalid_email_address": "Invalid email address",
+      "password_must_be_at_least_8_characters": "Password must be at least 8 characters",
+      "username": "Username:",
+      "password": "Password:",
+      "email": "Email:",
+      "loading": "Loading...",
+      "success": "Success!",
+      "failed_to_load_data": "Failed to load data",
+      "this_is_a_class_component": "This is a class component",
+      "press_me": "Press me",
+      "header_title": "Header Title",
+      "operation_completed_successfully": "Operation completed successfully",
+      "operation_failed": "Operation failed"
+    }
+  }
+}

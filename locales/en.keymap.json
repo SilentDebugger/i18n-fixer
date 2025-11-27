@@ -1,0 +1,761 @@
+{
+  "welcome.greeting": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 12,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:12"
+      }
+    ]
+  },
+  "errors.general": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 16,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:16"
+      }
+    ]
+  },
+  "welcome.title": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 22,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:22"
+      }
+    ]
+  },
+  "buttons.clickMe": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 25,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:25"
+      }
+    ]
+  },
+  "buttons.submit": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 26,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:26"
+      }
+    ]
+  },
+  "welcome.userGreeting": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 29,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:29"
+      }
+    ]
+  },
+  "status.loggedIn": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 32,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:32"
+      }
+    ]
+  },
+  "status.pleaseLogin": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 32,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:32"
+      }
+    ]
+  },
+  "inputs.enterName": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 41,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:41"
+      }
+    ]
+  },
+  "inputs.email": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 42,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:42"
+      }
+    ]
+  },
+  "buttons.save": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 46,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:46"
+      }
+    ]
+  },
+  "accessibility.saveChanges": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 47,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:47"
+      }
+    ]
+  },
+  "profile.settings": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 52,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:52"
+      }
+    ]
+  },
+  "profile.manageAccount": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 54,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:54"
+      }
+    ]
+  },
+  "buttons.cancel": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 59,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:59"
+      }
+    ]
+  },
+  "buttons.ok": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 60,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:60"
+      }
+    ]
+  },
+  "buttons.delete": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 61,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:61"
+      }
+    ]
+  },
+  "buttons.edit": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 62,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:62"
+      }
+    ]
+  },
+  "class.title": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 92,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:92"
+      }
+    ]
+  },
+  "buttons.press": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 93,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:93"
+      }
+    ]
+  },
+  "header.title": {
+    "value": "TODO: translate",
+    "source": "existing",
+    "locations": [
+      {
+        "file": "examples/GoodExample.jsx",
+        "line": 99,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/GoodExample.jsx:99"
+      }
+    ]
+  },
+  "examples.type_script_example.welcome_to_typescript_component": {
+    "value": "Welcome to TypeScript Component",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/TypeScriptExample.tsx",
+        "line": 27,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/TypeScriptExample.tsx:27"
+      }
+    ]
+  },
+  "examples.type_script_example.user_dashboard": {
+    "value": "User Dashboard",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/TypeScriptExample.tsx",
+        "line": 33,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/TypeScriptExample.tsx:33"
+      }
+    ]
+  },
+  "examples.type_script_example.welcome_back": {
+    "value": "Welcome back,",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/TypeScriptExample.tsx",
+        "line": 37,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/TypeScriptExample.tsx:37"
+      }
+    ]
+  },
+  "examples.type_script_example.please_sign_in_to_continue": {
+    "value": "Please sign in to continue",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/TypeScriptExample.tsx",
+        "line": 39,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/TypeScriptExample.tsx:39"
+      }
+    ]
+  },
+  "examples.type_script_example.enter_email": {
+    "value": "Enter email",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/TypeScriptExample.tsx",
+        "line": 44,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/TypeScriptExample.tsx:44"
+      }
+    ]
+  },
+  "examples.type_script_example.login": {
+    "value": "Login",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/TypeScriptExample.tsx",
+        "line": 54,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/TypeScriptExample.tsx:54"
+      }
+    ]
+  },
+  "examples.type_script_example.register": {
+    "value": "Register",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/TypeScriptExample.tsx",
+        "line": 55,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/TypeScriptExample.tsx:55"
+      }
+    ]
+  },
+  "examples.type_script_example.forgot_password": {
+    "value": "Forgot Password?",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/TypeScriptExample.tsx",
+        "line": 56,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/TypeScriptExample.tsx:56"
+      }
+    ]
+  },
+  "examples.type_script_example.loading_user_data": {
+    "value": "Loading user data...",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/TypeScriptExample.tsx",
+        "line": 65,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/TypeScriptExample.tsx:65"
+      }
+    ]
+  },
+  "examples.type_script_example.data_saved_successfully": {
+    "value": "Data saved successfully",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/TypeScriptExample.tsx",
+        "line": 66,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/TypeScriptExample.tsx:66"
+      }
+    ]
+  },
+  "examples.type_script_example.unable_to_connect_to_server": {
+    "value": "Unable to connect to server",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/TypeScriptExample.tsx",
+        "line": 67,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/TypeScriptExample.tsx:67"
+      }
+    ]
+  },
+  "examples.type_script_example.settings_panel": {
+    "value": "Settings Panel",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/TypeScriptExample.tsx",
+        "line": 84,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/TypeScriptExample.tsx:84"
+      }
+    ]
+  },
+  "examples.type_script_example.configure_your_preferences_below": {
+    "value": "Configure your preferences below",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/TypeScriptExample.tsx",
+        "line": 85,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/TypeScriptExample.tsx:85"
+      }
+    ]
+  },
+  "examples.type_script_example.notification_settings": {
+    "value": "Notification Settings",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/TypeScriptExample.tsx",
+        "line": 95,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/TypeScriptExample.tsx:95"
+      }
+    ]
+  },
+  "examples.type_script_example.enable_notifications": {
+    "value": "Enable Notifications",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/TypeScriptExample.tsx",
+        "line": 96,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/TypeScriptExample.tsx:96"
+      }
+    ]
+  },
+  "examples.type_script_example.disable_all": {
+    "value": "Disable All",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/TypeScriptExample.tsx",
+        "line": 97,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/TypeScriptExample.tsx:97"
+      }
+    ]
+  },
+  "examples.type_script_example.important_notice": {
+    "value": "Important Notice",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/TypeScriptExample.tsx",
+        "line": 137,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/TypeScriptExample.tsx:137"
+      }
+    ]
+  },
+  "examples.type_script_example.your_account_will_be_upgraded_automatica": {
+    "value": "Your account will be upgraded automatically.",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/TypeScriptExample.tsx",
+        "line": 138,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/TypeScriptExample.tsx:138"
+      }
+    ]
+  },
+  "examples.type_script_example.learn_more": {
+    "value": "Learn More",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/TypeScriptExample.tsx",
+        "line": 141,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/TypeScriptExample.tsx:141"
+      }
+    ]
+  },
+  "examples.bad_example.hello_welcome_to_our_app": {
+    "value": "Hello, welcome to our app!",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 10,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:10"
+      }
+    ]
+  },
+  "examples.bad_example.something_went_wrong_please_try_again": {
+    "value": "Something went wrong. Please try again.",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 14,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:14"
+      }
+    ]
+  },
+  "examples.bad_example.welcome_to_the_app": {
+    "value": "Welcome to the App",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 20,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:20"
+      }
+    ]
+  },
+  "examples.bad_example.click_me": {
+    "value": "Click Me",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 23,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:23"
+      }
+    ]
+  },
+  "examples.bad_example.submit_form": {
+    "value": "Submit Form",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 24,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:24"
+      }
+    ]
+  },
+  "examples.bad_example.hello_world": {
+    "value": "Hello World",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 27,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:27"
+      }
+    ]
+  },
+  "examples.bad_example.welcome": {
+    "value": "Welcome",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 30,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:30"
+      }
+    ]
+  },
+  "examples.bad_example.enter_your_name": {
+    "value": "Enter your name",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 42,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:42"
+      }
+    ]
+  },
+  "examples.bad_example.email_address": {
+    "value": "Email address",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 43,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:43"
+      }
+    ]
+  },
+  "examples.bad_example.save_changes": {
+    "value": "Save Changes",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 47,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:47"
+      }
+    ]
+  },
+  "examples.bad_example.profile_settings": {
+    "value": "Profile Settings",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 53,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:53"
+      }
+    ]
+  },
+  "examples.bad_example.manage_your_account": {
+    "value": "Manage your account",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 55,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:55"
+      }
+    ]
+  },
+  "examples.bad_example.cancel": {
+    "value": "Cancel",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 63,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:63"
+      }
+    ]
+  },
+  "examples.bad_example.delete": {
+    "value": "Delete",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 65,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:65"
+      }
+    ]
+  },
+  "examples.bad_example.edit": {
+    "value": "Edit",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 66,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:66"
+      }
+    ]
+  },
+  "examples.bad_example.save": {
+    "value": "Save",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 67,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:67"
+      }
+    ]
+  },
+  "examples.bad_example.invalid_email_address": {
+    "value": "Invalid email address",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 70,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:70"
+      }
+    ]
+  },
+  "examples.bad_example.password_must_be_at_least_8_characters": {
+    "value": "Password must be at least 8 characters",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 71,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:71"
+      }
+    ]
+  },
+  "examples.bad_example.username": {
+    "value": "Username:",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 74,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:74"
+      }
+    ]
+  },
+  "examples.bad_example.password": {
+    "value": "Password:",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 75,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:75"
+      }
+    ]
+  },
+  "examples.bad_example.email": {
+    "value": "Email:",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 76,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:76"
+      }
+    ]
+  },
+  "examples.bad_example.loading": {
+    "value": "Loading...",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 79,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:79"
+      }
+    ]
+  },
+  "examples.bad_example.success": {
+    "value": "Success!",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 80,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:80"
+      }
+    ]
+  },
+  "examples.bad_example.failed_to_load_data": {
+    "value": "Failed to load data",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 81,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:81"
+      }
+    ]
+  },
+  "examples.bad_example.this_is_a_class_component": {
+    "value": "This is a class component",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 91,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:91"
+      }
+    ]
+  },
+  "examples.bad_example.press_me": {
+    "value": "Press me",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 92,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:92"
+      }
+    ]
+  },
+  "examples.bad_example.header_title": {
+    "value": "Header Title",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 98,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:98"
+      }
+    ]
+  },
+  "examples.bad_example.operation_completed_successfully": {
+    "value": "Operation completed successfully",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 104,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:104"
+      }
+    ]
+  },
+  "examples.bad_example.operation_failed": {
+    "value": "Operation failed",
+    "source": "hardcoded",
+    "locations": [
+      {
+        "file": "examples/BadExample.jsx",
+        "line": 104,
+        "link": "/Users/ruven.witzig/Dev/scripts/node/i18n-fixer/examples/BadExample.jsx:104"
+      }
+    ]
+  }
+}
